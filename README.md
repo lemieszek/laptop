@@ -1,6 +1,7 @@
 # Installation
 
 Clone repo & run mac script to install necessery software.
+
 ```bash
 git clone https://github.com/d-szymanski/laptop.git && cd laptop && ./mac
 ```
@@ -26,6 +27,7 @@ cp .vimrc ~/.vimrc
 ```
 
 Copy Zsh config file
+
 ```bash
 cp .zshrc ~/.zshrc
 ```
@@ -36,11 +38,23 @@ Follow instructions [here](https://github.com/robbyrussell/oh-my-zsh). Or instal
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 ```
 
 ## Fira-code
 
 Monospace font I use for development that you can [download here](https://github.com/tonsky/FiraCode).
+
+## Commitizen
+
+```bash
+npm install -g commitizen cz-conventional-changelogx
+echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
+```
+
+Then you can use `git cz` then in any git repository.
 
 ## Apps from App Store
 
@@ -48,6 +62,4 @@ Essential apps I use every day.
 
 - [LastPass](https://apps.apple.com/us/app/lastpass-password-manager/id926036361)
 - [Magnet](https://apps.apple.com/us/app/magnet/id441258766)
-- [Spark](https://apps.apple.com/us/app/spark-email-app-by-readdle/id1176895641) _*_
-
-_* not so essential nowadays_
+- [Spark](https://apps.apple.com/us/app/spark-email-app-by-readdle/id1176895641)
