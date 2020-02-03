@@ -1,18 +1,21 @@
 " Plugins
 call plug#begin('~/.vim/plugged')
-Plug 'drewtempelmeyer/palenight.vim'
+Plug 'flazz/vim-colorschemes'
 
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'easymotion/vim-easymotion'
+Plug 'ycm-core/YouCompleteMe'
+Plug 'tpope/vim-surround'
 
 call plug#end()
 
 " syntax and color
 syntax on " syntax coloring
 set background=dark
-colorscheme palenight
+colorscheme neonwave
 set termguicolors " true color ignore terminal color changes
 set nu " line number
 
