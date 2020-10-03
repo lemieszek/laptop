@@ -26,6 +26,12 @@ Copy Vim config file
 cp .vimrc ~/.vimrc
 ```
 
+Copy NeoVim config file
+
+```bash
+cp init.vim ~/.config/nvim/init.vim
+```
+
 Copy Zsh config file
 
 ```bash
