@@ -108,16 +108,25 @@ tap "homebrew/cask-versions"
 
 # Unix
 brew "git"
-brew "vim"
-brew "nvim"
+brew "git-absorb"
+brew "neovim"
 brew "zsh"
 brew "httpie"
 brew "htop"
 brew "kubectl"
 brew "kubectx"
+brew "autojump"
+brew "fzf"
+brew "watch"
+
+# zsh plugins
+brew "zsh-syntax-highlighting"
+brew "zsh-autosuggestions"
+brew "docker-completion"
 
 # Image manipulation
 brew "imagemagick"
+brew "ffmpeg"
 
 # Programming language prerequisites and package managers
 brew "yarn"
@@ -125,16 +134,20 @@ brew "yarn"
 # Databases
 brew "postgres", restart_service: :changed
 
-# Programs
+# Development programs
 cask "iterm2"
+cask "findergo"
 cask "visual-studio-code"
-cask "bettertouchtool"
 cask "google-chrome"
+cask "firefox-developer-edition"
+cask "dbeaver-community"
+
+# Utils
+cask "bettertouchtool"
 cask "lulu"
 cask "iina"
 cask "zoomus"
-cask "findergo"
-cask "firefox-developer-edition"
+cask "nordvpn"
 
 EOF
 
