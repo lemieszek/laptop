@@ -10,7 +10,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Plugins
 plugins=(
   git
-  zsh-autosuggestions
   asdf
   docker
   docker-compose
@@ -66,6 +65,19 @@ export PATH="$HOME/.asdf/bin:$PATH"
 . $HOME/.asdf/completions/asdf.bash
 
 # Weird shit
+
+# This speeds up pasting w/ autosuggest
+# https://github.com/zsh-users/zsh-autosuggestions/issues/238
+pasteinit() {
+  OLD_SELF_INSERT=${${(s.:.)widgets[self-insert]}[2,3]}
+  zle -N self-insert url-quote-magic # I wonder if you'd need `.url-quote-magic`?
+}
+
+pastefinish() {
+  zle -N self-insert $OLD_SELF_INSERT
+}
+zstyle :bracketed-paste-magic paste-init pasteinit
+zstyle :bracketed-paste-magic paste-finish pastefinish
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/usr/local/bin/google-cloud-sdk/path.zsh.inc' ]; then . '/usr/local/bin/google-cloud-sdk/path.zsh.inc'; fi
