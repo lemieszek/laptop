@@ -127,6 +127,7 @@ brew "docker-completion"
 # Image manipulation
 brew "imagemagick"
 brew "ffmpeg"
+brew "pdftk-java"
 
 # Programming language prerequisites and package managers
 brew "yarn"
@@ -147,7 +148,6 @@ cask "bettertouchtool"
 cask "lulu"
 cask "iina"
 cask "zoomus"
-cask "nordvpn"
 
 EOF
 
