@@ -127,7 +127,6 @@ brew "docker-completion"
 # Image manipulation
 brew "imagemagick"
 brew "ffmpeg"
-brew "pdftk-java"
 
 # Programming language prerequisites and package managers
 brew "yarn"

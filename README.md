@@ -49,23 +49,14 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 ```
 
-## Fira-code
+## Fira-code Nerd font
 
-Monospace font I use for development that you can [download here](https://github.com/tonsky/FiraCode).
+Monospace font I use for development. Available on private google drive.
 
-## Commitizen
-
-```bash
-npm install -g commitizen cz-conventional-changelogx
-echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
-```
-
-Then you can use `git cz` then in any git repository.
-
-## Apps from App Store
+## Apps
 
 Essential apps I use every day.
 
-- [LastPass](https://apps.apple.com/us/app/lastpass-password-manager/id926036361)
+- [Bitwarden](https://bitwarden.com/download/)
 - [Magnet](https://apps.apple.com/us/app/magnet/id441258766)
 - [Spark](https://apps.apple.com/us/app/spark-email-app-by-readdle/id1176895641)
