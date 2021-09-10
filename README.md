@@ -60,3 +60,7 @@ Essential apps I use every day.
 - [Bitwarden](https://bitwarden.com/download/)
 - [Magnet](https://apps.apple.com/us/app/magnet/id441258766)
 - [Spark](https://apps.apple.com/us/app/spark-email-app-by-readdle/id1176895641)
+
+## SSH
+
+Add SSH to GitHub following [this guide](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)

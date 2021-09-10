@@ -110,7 +110,6 @@ tap "homebrew/cask-versions"
 brew "git"
 brew "git-absorb"
 brew "neovim"
-brew "zsh"
 brew "httpie"
 brew "htop"
 brew "kubectl"
@@ -132,7 +131,7 @@ brew "ffmpeg"
 brew "yarn"
 
 # Databases
-brew "postgres", restart_service: :changed
+# brew "postgres", restart_service: :changed
 
 # Development programs
 cask "iterm2"
@@ -143,7 +142,7 @@ cask "firefox-developer-edition"
 cask "dbeaver-community"
 
 # Utils
-cask "bettertouchtool"
+# cask "bettertouchtool"
 cask "lulu"
 cask "iina"
 cask "zoomus"
