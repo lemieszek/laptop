@@ -26,12 +26,6 @@ Copy Vim config file
 cp .vimrc ~/.vimrc
 ```
 
-Copy NeoVim config file
-
-```bash
-cp init.vim ~/.config/nvim/init.vim
-```
-
 Copy Zsh config file
 
 ```bash
@@ -50,14 +44,21 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
+## fzf
+
+Install fzf keybinds
+
+```bash
+$(brew --prefix)/opt/fzf/install
+```
+
 ## Fira-code Nerd font
 
 Monospace font I use for development. Available on private google drive.
 
-## Themes
+## Iterm2
 
-Themes are available in `/themes` directory. Apply for each program by hand.
-
+Iterm 2 and settings are sync over iCloud. Those arent perfect, yet.
 
 ## VS CODE 
 
@@ -73,6 +74,7 @@ Essential apps I use every day.
 - [Magnet](https://apps.apple.com/us/app/magnet/id441258766)
 - [Spark](https://apps.apple.com/us/app/spark-email-app-by-readdle/id1176895641)
 - [Flycut](https://apps.apple.com/pl/app/flycut-clipboard-manager/id442160987?mt=12)
+- [Notion](https://www.notion.so/desktop)
 
 ## SSH
 
