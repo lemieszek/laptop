@@ -120,7 +120,7 @@ brew "watch"
 
 # zsh plugins
 brew "zsh-syntax-highlighting"
-brew "zsh-autosuggestions"
+# brew "zsh-autosuggestions"
 brew "docker-completion"
 
 # Image manipulation
@@ -143,9 +143,11 @@ cask "dbeaver-community"
 
 # Utils
 # cask "bettertouchtool"
+# cask "zoomus"
+cask "browserosaurus"
 cask "lulu"
 cask "iina"
-cask "zoomus"
+
 
 EOF
 
