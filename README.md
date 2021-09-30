@@ -75,6 +75,7 @@ Essential apps I use every day.
 - [Spark](https://apps.apple.com/us/app/spark-email-app-by-readdle/id1176895641)
 - [Flycut](https://apps.apple.com/pl/app/flycut-clipboard-manager/id442160987?mt=12)
 - [Notion](https://www.notion.so/desktop)
+- [Disk Inventory X](http://www.derlien.com/downloads/index.html)
 
 ## SSH
 
