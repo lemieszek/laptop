@@ -117,6 +117,7 @@ brew "kubectx"
 brew "autojump"
 brew "fzf"
 brew "watch"
+brew "cloc"
 
 # zsh plugins
 brew "zsh-syntax-highlighting"
