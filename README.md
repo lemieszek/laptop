@@ -62,14 +62,17 @@ Settings are synchronized by [Settings Sync](https://marketplace.visualstudio.co
 
 Essential apps I use every day.
 
-- [Alfred](https://www.alfredapp.com/)
-- [Dash](https://blog.kapeli.com/dash-4)
-- [Bitwarden](https://bitwarden.com/download/)
-- [Magnet](https://apps.apple.com/us/app/magnet/id441258766)
-- [Spark](https://apps.apple.com/us/app/spark-email-app-by-readdle/id1176895641)
-- [Flycut](https://apps.apple.com/pl/app/flycut-clipboard-manager/id442160987?mt=12)
+- [Alfred](https://www.alfredapp.com/) - spotlight replacemnet
+- [Bitwarden](https://bitwarden.com/download/) - password manager
+- [Magnet](https://apps.apple.com/us/app/magnet/id441258766) - windows manager
+- [Spark](https://apps.apple.com/us/app/spark-email-app-by-readdle/id1176895641) - Mail client
+- [Flycut](https://apps.apple.com/pl/app/flycut-clipboard-manager/id442160987?mt=12) - Clipboard manager
+- [Docker](https://docs.docker.com/get-docker/)
+- [Forehead](https://www.producthunt.com/posts/forehead) - MacBook Notch hider
 - [Notion](https://www.notion.so/desktop)
 - [Disk Inventory X](http://www.derlien.com/downloads/index.html)
+- [FinderGo](https://github.com/onmyway133/FinderGo)
+- [Dash](https://blog.kapeli.com/dash-4)
 
 ## SSH
 
@@ -77,6 +80,7 @@ Generate SSH:
 
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "dawid.lemieszek.1@gmail.com"
 ```
 
 Add SSH to GitHub following [this guide](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)

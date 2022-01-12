@@ -136,7 +136,7 @@ brew "yarn"
 
 # Development programs
 cask "iterm2"
-cask "findergo"
+# cask "findergo"
 cask "visual-studio-code"
 cask "google-chrome"
 cask "firefox-developer-edition"
@@ -145,7 +145,7 @@ cask "dbeaver-community"
 # Utils
 # cask "bettertouchtool"
 # cask "zoomus" # not working as for now
-cask "browserosaurus"
+# cask "browserosaurus"
 cask "lulu"
 cask "iina"
 
