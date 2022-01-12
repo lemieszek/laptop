@@ -80,7 +80,6 @@ Generate SSH:
 
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
-ssh-keygen -t ed25519 -C "dawid.lemieszek.1@gmail.com"
 ```
 
 Add SSH to GitHub following [this guide](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
