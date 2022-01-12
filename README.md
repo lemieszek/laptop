@@ -87,7 +87,7 @@ Add SSH to GitHub following [this guide](https://docs.github.com/en/github/authe
 
 ## Set default view as list:
 
-Open finder, Select your hard disc
+Open finder, Select your hard disc (`/`)
 `Command + J`
 Check the top two check boxes (Always open in list view, browse in list view) & Date modified, date created, size, kind 
 
