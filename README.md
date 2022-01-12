@@ -1,9 +1,11 @@
 # Installation
 
-Clone repo & run mac script to install necessery software.
+Download or clone repo & run mac script to install necessery software.
 
 ```bash
-git clone https://github.com/d-szymanski/laptop.git && cd laptop && ./mac
+git clone https://github.com/d-szymanski/laptop.git && cd laptop
+
+sudo ./mac
 ```
 
 If you have problems running `mac` file, try adding execute rights
@@ -20,28 +22,20 @@ Make sure you are in `laptop` direcory
 cd laptop
 ```
 
-Copy Vim config file
+Copy Vim config file and create directories
 
 ```bash
 cp .vimrc ~/.vimrc
+mkdir ~/.vim
+mkdir ~/.vim/backups
+mkdir ~/.vim/swaps
+mkdir ~/.vim/undo
 ```
 
 Copy Zsh config file
 
 ```bash
 cp .zshrc ~/.zshrc
-```
-
-## Oh-my-zsh
-
-Follow instructions [here](https://github.com/robbyrussell/oh-my-zsh). Or install oh-my-zsh with instruction below.
-
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
 ## fzf
@@ -86,3 +80,14 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 Add SSH to GitHub following [this guide](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
+
+## Set default view as list:
+
+Open finder, Select your hard disc
+`Command + J`
+Check the top two check boxes (Always open in list view, browse in list view) & Date modified, date created, size, kind 
+
+Click use as defaults
+
+run `sudo find / -name ".DS_Store"  -exec rm {} \;`

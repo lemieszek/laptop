@@ -14,12 +14,12 @@ plugins=(
   docker
   docker-compose
   kubectl
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
 )
 
 source $ZSH/oh-my-zsh.sh
-
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Unbind keys
 bindkey -r '^L'
